@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.otf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventFilterPriceCellIdentifier" rowHeight="63" id="KGk-i7-Jjw" customClass="EventFilterPriceCell" customModule="QTickets" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="CGx-6u-kgL">
+                        <rect key="frame" x="38" y="21.5" width="244" height="31"/>
+                        <color key="tintColor" red="0.90196078431372551" green="0.90588235294117647" blue="0.92156862745098034" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <action selector="sliderValueChangedWithSender:" destination="KGk-i7-Jjw" eventType="valueChanged" id="NoX-3e-osv"/>
+                        </connections>
+                    </slider>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10 QAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TwA-9h-YKo">
+                        <rect key="frame" x="30" y="5" width="36" height="13"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="10"/>
+                        <color key="textColor" red="0.79607843137254897" green="0.79607843137254897" blue="0.84705882352941175" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10000 QAR" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TTC-83-eXM">
+                        <rect key="frame" x="224" y="5" width="56" height="13"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="10"/>
+                        <color key="textColor" red="0.79607843140000001" green="0.79607843140000001" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="CGx-6u-kgL" secondAttribute="trailing" constant="40" id="32u-Bs-bdf"/>
+                    <constraint firstItem="TTC-83-eXM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="33l-gh-La8"/>
+                    <constraint firstItem="CGx-6u-kgL" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="5" id="9kp-n4-dpN"/>
+                    <constraint firstItem="CGx-6u-kgL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="40" id="Ck1-bH-2DP"/>
+                    <constraint firstItem="TwA-9h-YKo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="D29-t4-9oF"/>
+                    <constraint firstItem="TwA-9h-YKo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="30" id="u7P-0R-gQv"/>
+                    <constraint firstAttribute="trailing" secondItem="TTC-83-eXM" secondAttribute="trailing" constant="40" id="yN7-Vz-5DD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblMax" destination="TTC-83-eXM" id="Il4-Al-qGf"/>
+                <outlet property="lblMin" destination="TwA-9h-YKo" id="4uB-4S-ZYD"/>
+                <outlet property="sliderView" destination="CGx-6u-kgL" id="r25-rY-0Pf"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="89.732142857142847"/>
+        </tableViewCell>
+    </objects>
+</document>

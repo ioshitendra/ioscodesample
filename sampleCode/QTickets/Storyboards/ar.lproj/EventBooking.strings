@@ -1,0 +1,174 @@
+
+/* Class = "UILabel"; text = "01 X Platinum (300 QAR)"; ObjectID = "327-Y1-rb7"; */
+"327-Y1-rb7.text" = "01 X Platinum (300 QAR)";
+
+/* Class = "UILabel"; text = "01 X Platinum (300 QAR)"; ObjectID = "32Q-P8-VGm"; */
+"32Q-P8-VGm.text" = "01 X Platinum (300 QAR)";
+
+/* Class = "UILabel"; text = "Ticket Type"; ObjectID = "51R-cp-zzD"; */
+"51R-cp-zzD.text" = "Ticket Type";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "58R-tc-Hh6"; */
+"58R-tc-Hh6.text" = "Date";
+
+/* Class = "UILabel"; text = "Time"; ObjectID = "5zE-R4-0zo"; */
+"5zE-R4-0zo.text" = "Time";
+
+/* Class = "UILabel"; text = "Total Amount"; ObjectID = "729-T2-IJp"; */
+"729-T2-IJp.text" = "Total Amount";
+
+/* Class = "UILabel"; text = "300 QAR"; ObjectID = "7Ns-WT-IXp"; */
+"7Ns-WT-IXp.text" = "300 QAR";
+
+/* Class = "UILabel"; text = "A9"; ObjectID = "7Vt-CF-gAa"; */
+"7Vt-CF-gAa.text" = "A9";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "8tD-tt-BLz"; */
+"8tD-tt-BLz.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Grand Total"; ObjectID = "9aH-xv-Qys"; */
+"9aH-xv-Qys.text" = "Grand Total";
+
+/* Class = "UILabel"; text = "01"; ObjectID = "9lP-dd-LF4"; */
+"9lP-dd-LF4.text" = "01";
+
+/* Class = "UILabel"; text = "Longines Arena Building, Doha, Qatar"; ObjectID = "At0-Ee-c57"; */
+"At0-Ee-c57.text" = "Longines Arena Building, Doha, Qatar";
+
+/* Class = "UILabel"; text = "15th Feb Sunday"; ObjectID = "B6I-Y6-V6K"; */
+"B6I-Y6-V6K.text" = "15th Feb Sunday";
+
+/* Class = "UILabel"; text = "Choose your preferred date"; ObjectID = "BK2-Gx-kql"; */
+"BK2-Gx-kql.text" = "Choose your preferred date";
+
+/* Class = "UILabel"; text = "Oct 03"; ObjectID = "BrC-Et-oUO"; */
+"BrC-Et-oUO.text" = "Oct 03";
+
+/* Class = "UIButton"; normalTitle = "Continue As Guest"; ObjectID = "BsD-Zg-B3m"; */
+"BsD-Zg-B3m.normalTitle" = "Continue As Guest";
+
+/* Class = "UILabel"; text = "Ticket Type"; ObjectID = "Chm-cU-Joq"; */
+"Chm-cU-Joq.text" = "Ticket Type";
+
+/* Class = "UILabel"; text = "Total Amount"; ObjectID = "DaT-mx-ggD"; */
+"DaT-mx-ggD.text" = "Total Amount";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "F2f-Al-lrd"; */
+"F2f-Al-lrd.normalTitle" = "Continue";
+
+/* Class = "UILabel"; text = "    "; ObjectID = "Igi-FN-mDg"; */
+"Igi-FN-mDg.text" = "    ";
+
+/* Class = "UILabel"; text = "Gold (Middle Tier)"; ObjectID = "KpY-Qi-7Sb"; */
+"KpY-Qi-7Sb.text" = "Gold (Middle Tier)";
+
+/* Class = "UILabel"; text = "01"; ObjectID = "KxV-3s-rNm"; */
+"KxV-3s-rNm.text" = "01";
+
+/* Class = "UILabel"; text = "Longines Global Champions Tour - Doha"; ObjectID = "NB6-7n-KcS"; */
+"NB6-7n-KcS.text" = "Longines Global Champions Tour - Doha";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "NCO-ND-Fba"; */
+"NCO-ND-Fba.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Ticket Category"; ObjectID = "NwU-7m-g8H"; */
+"NwU-7m-g8H.text" = "Ticket Category";
+
+/* Class = "UILabel"; text = "100 QAR"; ObjectID = "QTY-BW-ne4"; */
+"QTY-BW-ne4.text" = "100 QAR";
+
+/* Class = "UILabel"; text = "300 QAR"; ObjectID = "RV3-zw-WEP"; */
+"RV3-zw-WEP.text" = "300 QAR";
+
+/* Class = "UILabel"; text = "No of tickets   "; ObjectID = "SLE-j9-NGy"; */
+"SLE-j9-NGy.text" = "No of tickets   ";
+
+/* Class = "UILabel"; text = "Seats"; ObjectID = "TMk-lh-3jI"; */
+"TMk-lh-3jI.text" = "Seats";
+
+/* Class = "UILabel"; text = "or"; ObjectID = "VJs-U9-zhy"; */
+"VJs-U9-zhy.text" = "or";
+
+/* Class = "UILabel"; text = "Google"; ObjectID = "XqC-jo-xBQ"; */
+"XqC-jo-xBQ.text" = "Google";
+
+/* Class = "UILabel"; text = "01"; ObjectID = "YlC-Uc-mRi"; */
+"YlC-Uc-mRi.text" = "01";
+
+/* Class = "UILabel"; text = "Longines Global Champions Tour - Doha"; ObjectID = "ZCe-ih-jlA"; */
+"ZCe-ih-jlA.text" = "Longines Global Champions Tour - Doha";
+
+/* Class = "UIButton"; normalTitle = "Show in google maps "; ObjectID = "Ztl-pP-LiB"; */
+"Ztl-pP-LiB.normalTitle" = "Show in google maps ";
+
+/* Class = "UILabel"; text = "01"; ObjectID = "amB-nf-Ibo"; */
+"amB-nf-Ibo.text" = "01";
+
+/* Class = "UIButton"; normalTitle = "Proceed To Pay"; ObjectID = "bUl-Sx-LIR"; */
+"bUl-Sx-LIR.normalTitle" = "Proceed To Pay";
+
+/* Class = "UILabel"; text = "Thu"; ObjectID = "bes-PM-UIg"; */
+"bes-PM-UIg.text" = "Thu";
+
+/* Class = "UILabel"; text = "20 QAR"; ObjectID = "cDc-hm-w1w"; */
+"cDc-hm-w1w.text" = "20 QAR";
+
+/* Class = "UILabel"; text = "300 QAR"; ObjectID = "dJ6-Xe-fFd"; */
+"dJ6-Xe-fFd.text" = "300 QAR";
+
+/* Class = "UILabel"; text = "Choose your preferred ticket Category"; ObjectID = "dWU-rt-3xx"; */
+"dWU-rt-3xx.text" = "Choose your preferred ticket Category";
+
+/* Class = "UILabel"; text = "01"; ObjectID = "day-7m-f42"; */
+"day-7m-f42.text" = "01";
+
+/* Class = "UITextField"; placeholder = "Have Coupon..?"; ObjectID = "diT-Ze-dDQ"; */
+"diT-Ze-dDQ.placeholder" = "Have Coupon..?";
+
+/* Class = "UILabel"; text = "Payment Summary"; ObjectID = "eHN-r7-Sfs"; */
+"eHN-r7-Sfs.text" = "Payment Summary";
+
+/* Class = "UILabel"; text = "10:00 am To 09:00 pm"; ObjectID = "fkD-Dc-6yG"; */
+"fkD-Dc-6yG.text" = "10:00 am To 09:00 pm";
+
+/* Class = "UILabel"; text = "No of tickets"; ObjectID = "fn1-hD-Aan"; */
+"fn1-hD-Aan.text" = "No of tickets";
+
+/* Class = "UILabel"; text = "05:00 PM"; ObjectID = "hYo-ow-Lz8"; */
+"hYo-ow-Lz8.text" = "05:00 PM";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "ixM-bd-y8n"; */
+"ixM-bd-y8n.normalTitle" = "Forgot Password?";
+
+/* Class = "UILabel"; text = "Longines Arena Building, Doha, Qatar"; ObjectID = "lBv-wF-Gh8"; */
+"lBv-wF-Gh8.text" = "Longines Arena Building, Doha, Qatar";
+
+/* Class = "UILabel"; text = "Platinum (Upper Tier)"; ObjectID = "nF9-JD-wtm"; */
+"nF9-JD-wtm.text" = "Platinum (Upper Tier)";
+
+/* Class = "UILabel"; text = " 15 - 30 Feb 2020  "; ObjectID = "pkV-p4-7vH"; */
+"pkV-p4-7vH.text" = " 15 - 30 Feb 2020  ";
+
+/* Class = "UILabel"; text = "Service Charges"; ObjectID = "q9G-dD-mfo"; */
+"q9G-dD-mfo.text" = "Service Charges";
+
+/* Class = "UILabel"; text = "Facebook"; ObjectID = "u0q-wh-JzN"; */
+"u0q-wh-JzN.text" = "Facebook";
+
+/* Class = "UILabel"; text = "320 QAR"; ObjectID = "vtf-GJ-iqo"; */
+"vtf-GJ-iqo.text" = "320 QAR";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "whn-Nw-sWv"; */
+"whn-Nw-sWv.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "200 QAR"; ObjectID = "xG2-nf-gZT"; */
+"xG2-nf-gZT.text" = "200 QAR";
+
+/* Class = "UILabel"; text = "Oct 03"; ObjectID = "xYR-nj-nVE"; */
+"xYR-nj-nVE.text" = "Oct 03";
+
+/* Class = "UILabel"; text = "Choose your preferred time"; ObjectID = "xot-22-NKr"; */
+"xot-22-NKr.text" = "Choose your preferred time";
+
+/* Class = "UILabel"; text = "Silver (Lower Tier)"; ObjectID = "y1j-UD-kLT"; */
+"y1j-UD-kLT.text" = "Silver (Lower Tier)";

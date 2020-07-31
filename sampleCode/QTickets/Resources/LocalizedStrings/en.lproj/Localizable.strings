@@ -1,0 +1,19 @@
+
+//Tab Bar Strings
+
+"key_tab_home"                            = "Home";
+"key_buzz"                                = "Buzz";
+"key_tab_search"                          = "Search";
+"key_tab_account"                         = "Account";
+"key_view_all"                            = "View All (25)";
+"key_book_now"                            = "BOOK NOW";
+"key_hey"                                 = "Hey, ";
+"key_subheader_home"                      = "What You Like To Watch Today?";
+"key_title_logout"                        = "Logout";
+"key_alert_ok"                            = "OK";
+"key_alert_cancel"                        = "CANCEL";
+"key_logout_message"                      = "Are you sure to logout?";
+"key_events_listing_header"               = "Events";
+"key_movies_listing_header"               = "Movies";
+"key_seat_laout"                          = "Seat Selection";
+

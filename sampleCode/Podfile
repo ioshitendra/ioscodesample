@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'QTickets' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  
+  # Pods for QTickets
+
+pod 'Localize-Swift', '~> 2.0'
+pod 'ImageSlideshow/Alamofire'
+pod 'TPKeyboardAvoidingSwift'
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'MBProgressHUD'
+pod 'MarqueeLabel'
+pod 'Kingfisher'
+pod 'JVFloatLabeledTextField'
+pod 'MaterialComponents/TextControls+OutlinedTextFields'
+pod 'DropDown'
+pod 'youtube-ios-player-helper-swift'
+pod 'JExpandableTableView'
+pod 'Cosmos', '~> 22.1'
+
+end

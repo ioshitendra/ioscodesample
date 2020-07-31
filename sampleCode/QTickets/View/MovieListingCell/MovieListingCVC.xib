@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.otf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MovieListingCollectionCellIdentifier" id="AfY-t7-AoN" customClass="MovieListingCVC" customModule="QTickets" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="246"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="246"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EventsListing" translatesAutoresizingMaskIntoConstraints="NO" id="iJZ-48-b59">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="180"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="180" id="AKK-N9-bSU"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birds of Prey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUZ-vc-kRX">
+                        <rect key="frame" x="0.0" y="185" width="140" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="cRL-9u-KYP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                        <color key="textColor" red="0.066666666666666666" green="0.14509803921568626" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="scrollDuration">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="leadingBuffer">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="trailingBuffer">
+                                <real key="value" value="20"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Drama, Romance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Fv-2p-lXk">
+                        <rect key="frame" x="0.0" y="208" width="150" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="RYm-73-dSN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="10"/>
+                        <color key="textColor" red="0.066666666666666666" green="0.14509803921568626" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="pkH-Ra-gIC">
+                        <rect key="frame" x="0.0" y="230" width="8" height="8"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="0EG-PR-f2V"/>
+                            <constraint firstAttribute="height" constant="8" id="TfO-bA-Fav"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IMDb 8" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SxR-O3-inH">
+                        <rect key="frame" x="12" y="229" width="29" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="oXa-rn-Th7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="8"/>
+                        <color key="textColor" red="0.066666666669999999" green="0.1333333333" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Lr-3S-YRL">
+                        <rect key="frame" x="49" y="229" width="1" height="10"/>
+                        <color key="backgroundColor" red="0.066666666669999999" green="0.1333333333" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="Jsj-XH-ZIs"/>
+                            <constraint firstAttribute="height" constant="10" id="lT2-Pt-9TJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18+" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YXz-3a-JaJ">
+                        <rect key="frame" x="58" y="228" width="12.5" height="10"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="8"/>
+                        <color key="textColor" red="0.066666666669999999" green="0.1333333333" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="YXz-3a-JaJ" firstAttribute="leading" secondItem="5Lr-3S-YRL" secondAttribute="trailing" constant="8" id="0yy-F5-zj0"/>
+                <constraint firstItem="YXz-3a-JaJ" firstAttribute="leading" secondItem="5Lr-3S-YRL" secondAttribute="trailing" constant="8" id="1gO-lM-4HL"/>
+                <constraint firstItem="pkH-Ra-gIC" firstAttribute="centerY" secondItem="6Fv-2p-lXk" secondAttribute="centerY" constant="17" id="4g0-Yv-ddg"/>
+                <constraint firstItem="SxR-O3-inH" firstAttribute="leading" secondItem="pkH-Ra-gIC" secondAttribute="trailing" constant="4" id="6GA-Pb-nm9"/>
+                <constraint firstItem="YXz-3a-JaJ" firstAttribute="top" secondItem="6Fv-2p-lXk" secondAttribute="bottom" constant="2" id="Bx0-Vs-DfA"/>
+                <constraint firstAttribute="trailing" secondItem="iJZ-48-b59" secondAttribute="trailing" id="FNX-fO-y4I"/>
+                <constraint firstItem="pkH-Ra-gIC" firstAttribute="leading" secondItem="AfY-t7-AoN" secondAttribute="leading" id="I1m-IS-ZGk"/>
+                <constraint firstItem="5Lr-3S-YRL" firstAttribute="leading" secondItem="SxR-O3-inH" secondAttribute="trailing" constant="8" id="KRw-us-vke"/>
+                <constraint firstAttribute="trailing" secondItem="MUZ-vc-kRX" secondAttribute="trailing" constant="10" id="Osc-Xi-ire"/>
+                <constraint firstItem="6Fv-2p-lXk" firstAttribute="top" secondItem="MUZ-vc-kRX" secondAttribute="bottom" constant="3" id="RMN-jW-58O"/>
+                <constraint firstAttribute="bottom" secondItem="YXz-3a-JaJ" secondAttribute="bottom" constant="8" id="ShG-OQ-BBn"/>
+                <constraint firstAttribute="trailing" secondItem="6Fv-2p-lXk" secondAttribute="trailing" id="VEJ-fY-Aoa"/>
+                <constraint firstItem="5Lr-3S-YRL" firstAttribute="centerY" secondItem="SxR-O3-inH" secondAttribute="centerY" id="ZlR-xv-chV"/>
+                <constraint firstItem="iJZ-48-b59" firstAttribute="top" secondItem="AfY-t7-AoN" secondAttribute="top" id="b5N-Yv-cm5"/>
+                <constraint firstItem="MUZ-vc-kRX" firstAttribute="top" secondItem="iJZ-48-b59" secondAttribute="bottom" constant="5" id="cIs-c8-YhM"/>
+                <constraint firstItem="6Fv-2p-lXk" firstAttribute="leading" secondItem="AfY-t7-AoN" secondAttribute="leading" id="h83-uY-AHr"/>
+                <constraint firstItem="SxR-O3-inH" firstAttribute="top" secondItem="6Fv-2p-lXk" secondAttribute="bottom" constant="3" id="i5x-Tm-Oa0"/>
+                <constraint firstItem="MUZ-vc-kRX" firstAttribute="leading" secondItem="AfY-t7-AoN" secondAttribute="leading" id="jxY-cT-dHl"/>
+                <constraint firstItem="iJZ-48-b59" firstAttribute="leading" secondItem="AfY-t7-AoN" secondAttribute="leading" id="oxb-W9-Qov"/>
+                <constraint firstAttribute="bottom" secondItem="SxR-O3-inH" secondAttribute="bottom" constant="7" id="xmH-fv-JU8"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Msf-nP-izt"/>
+            <size key="customSize" width="145" height="212"/>
+            <connections>
+                <outlet property="imgMovie" destination="iJZ-48-b59" id="f3G-wm-mz7"/>
+                <outlet property="lblDesc" destination="6Fv-2p-lXk" id="NIX-Ei-zOW"/>
+                <outlet property="lblIMDb" destination="SxR-O3-inH" id="5B7-RQ-0Yc"/>
+                <outlet property="lblMovieName" destination="MUZ-vc-kRX" id="6Sk-3v-Q3Q"/>
+                <outlet property="lblPG" destination="YXz-3a-JaJ" id="OJI-qo-oaO"/>
+            </connections>
+            <point key="canvasLocation" x="94.20289855072464" y="56.919642857142854"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="EventsListing" width="159" height="198"/>
+        <image name="Icon" width="10.5" height="10"/>
+    </resources>
+</document>

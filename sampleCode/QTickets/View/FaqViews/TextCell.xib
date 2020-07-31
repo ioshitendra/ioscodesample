@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Bahij_TheSansArabic-Light.ttf">
+            <string>BahijTheSansArabic-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UITableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view tag="12" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cfp-YF-pNp">
+                    <rect key="frame" x="5" y="5" width="365" height="657"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" tag="11" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWV-Yg-SRA">
+                    <rect key="frame" x="16" y="8" width="343" height="651"/>
+                    <fontDescription key="fontDescription" name="BahijTheSansArabic-Light" family="Bahij TheSansArabic" pointSize="12"/>
+                    <color key="textColor" red="0.44705882352941173" green="0.44705882352941173" blue="0.44705882352941173" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Cfp-YF-pNp" secondAttribute="bottom" constant="5" id="2sy-Py-0rK"/>
+                <constraint firstItem="Cfp-YF-pNp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="9GR-vk-2Fb"/>
+                <constraint firstAttribute="bottom" secondItem="IWV-Yg-SRA" secondAttribute="bottom" constant="8" id="BKV-Gx-oYX"/>
+                <constraint firstItem="Cfp-YF-pNp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="UFC-CC-0po"/>
+                <constraint firstAttribute="trailing" secondItem="IWV-Yg-SRA" secondAttribute="trailing" constant="16" id="Wr4-dn-I7o"/>
+                <constraint firstItem="IWV-Yg-SRA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="eob-jw-huJ"/>
+                <constraint firstItem="IWV-Yg-SRA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="oLl-VO-jR6"/>
+                <constraint firstAttribute="trailing" secondItem="Cfp-YF-pNp" secondAttribute="trailing" constant="5" id="vHc-qw-Ph3"/>
+            </constraints>
+            <point key="canvasLocation" x="136.80000000000001" y="154.27286356821591"/>
+        </view>
+    </objects>
+</document>

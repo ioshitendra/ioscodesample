@@ -1,0 +1,6 @@
+framework module JExpandableTableView {
+  umbrella header "JExpandableTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
